@@ -1,0 +1,12 @@
+
+\.DS_Store
+
+config/target/
+
+eureka/target/
+
+pessoa/target/
+
+venda/target/
+
+zuul/target/
