@@ -18,7 +18,7 @@ public class VendaController {
     }
 
     @PostMapping
-    public Double vender() {
+    public String vender() {
         return vendaService.vender();
     }
 

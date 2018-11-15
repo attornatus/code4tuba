@@ -17,12 +17,9 @@ class VendaServiceImpl implements VendaService {
     }
 
     @Override
-    public Double vender() {
+    public String vender() {
         String pessoa = pessoaService.buscarPessoa(1L);
         log.info(pessoa);
-        if (pessoa.equals("Maria")) {
-            return Double.valueOf("500");
-        }
-        return Double.valueOf("100");
+        return pessoa;
     }
 }

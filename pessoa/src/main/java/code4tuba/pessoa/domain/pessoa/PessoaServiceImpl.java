@@ -10,6 +10,6 @@ class PessoaServiceImpl implements PessoaService {
     @Override
     public String buscarPorId(Long id) {
         log.info("Buscando pessoa com id: " + id);
-        return Long.valueOf("1").equals(id) ? "João" : "Maria";
+        return "João";
     }
 }
