@@ -14,6 +14,6 @@ public class PessoaServiceTest extends PessoaServerTest {
     @Test
     public void testFindById() {
         assertEquals("João", pessoaService.buscarPorId(1L));
-        assertEquals("Maria", pessoaService.buscarPorId(1L));
+        assertEquals("Maria", pessoaService.buscarPorId(2L));
     }
 }

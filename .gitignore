@@ -12,3 +12,5 @@ venda/target/
 zuul/target/
 
 \.idea/
+
+*.iml
