@@ -1,7 +1,12 @@
 spring:
   application:
     name: eureka-server
-    
+
+eureka:
+  server:
+    enableSelfPreservation: true
+    peerEurekaNodesUpdateIntervalMs: 60000
+
 ---
 spring:
   profiles: localhost
